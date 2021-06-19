@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>滿大碗滷味</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <style>
+        .carousel .carousel-item {
+            height: 300px;
+        }
+
+        .carousel .carousel-item img {
+            min-height: 300px;
+            max-height: 400px;
+            object-fit: cover;
+        }
+
+        .nav__logo {
+            width: 5%;
+        }
+        .space{
+            height: 100px;
+        }
+    </style>
+
+
+
+</head>
+
+<body style="background-color:	#FFE6D9">
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class='bx bx-chevron-up scrolltop__icon'></i>
+    </a>
+
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header" style="background-color: #FFCBB3">
+        <nav class="nav bd-container" >
+            <a href="#" class="nav__logo"><img src="assets/img/logo.png" alt=""></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">滷味</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">關於我們</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">產品介紹</a></li>
+                    <li class="nav__item"><a href="#menu" class="nav__link">菜單</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">聯絡我們</a></li>
+
+                    <!--                    <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>-->
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+
+
+        <div class="space">
+
+
+        </div>
+        <div class="container">
+            <div class="carousel slide" data-ride="carousel" id="carousel-demo">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-demo" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-demo" data-slide-to="1"></li>
+                    <li data-target="#carousel-demo" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="assets/img/1.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/2.jpg" alt="">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="assets/img/3.3.jpg" alt="">
+                    </div>
+
+                    <a href="#carousel-demo" class="carousel-control-prev" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a href="#carousel-demo" class="carousel-control-next" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+
+
+        <!--========== HOME ==========-->
+
+
+
+
+        <section class="home" id="home">
+            <div class="home__container bd-container bd-grid">
+                <div class="home__data">
+                    <h1 class="home__title">滿大碗滷味</h1>
+                    <h2 class="home__subtitle">大碗美味，大飽滿足</h2>
+                    <a href="#menu" class="button">瀏覽菜單</a>
+                </div>
+
+                <img src="assets/img/blogo.png" alt="" class="home__img">
+            </div>
+        </section>
+
+        <!--========== ABOUT ==========-->
+        <section class="about section bd-container" id="about">
+            <div class="about__container  bd-grid">
+                <div class="about__data">
+                    <span class="section-subtitle about__initial" style="font-size: 30px">關於我們</span>
+                    <h2 class="section-title about__initial">Eating <br> Enjoying!!</h2>
+
+                    <p class="about__description">「滿」滿足、盛滿美味，大碗公裡你能吃到私房熬制濃厚味醇的老火湯、四川香麻夠味的麻辣燙、九層塔蒜爆炒滷味，還有先滷再炸的獨門炸滷味，所有你想吃、沒想到的口味「滿大碗」一次滿足你所有口腹之慾。
+                    </p>
+                    <a href="#contact" class="button">聯絡我們</a>
+                </div>
+
+                <img src="assets/img/666.png" alt="" class="about__img">
+            </div>
+        </section>
+
+        <!--========== SERVICES ==========-->
+        <section class="services section bd-container" id="services">
+            <span class="section-subtitle" style="font-size: 30px">產品介紹</span>
+            <h2 class="section-title">四種風味吃法任你挑</h2>
+            <div class="menu__container bd-grid">
+
+                <div class="menu__content">
+                    <img src="assets/img/4.png" alt="" class="menu__img">
+                    <h3 class="menu__name">養生老火湯</h3>
+                    <span class="menu__detail">
+                        家傳配方老火湯底，
+                        以大蒜洋蔥為底的健康之選 利用大量洋蔥，
+                        枸杞，大蒜，荳寇，等數十種中藥材，
+                        熬出清甜甘美精華乳白湯頭，
+                        口感濃厚但爽口不膩，
+                        最能展現出滷味食材的自然鮮味！
+                    </span>
+
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/3.png" alt="" class="menu__img">
+                    <h3 class="menu__name">麻辣燙</h3>
+                    <span class="menu__detail">
+                        嚴選多種上等中藥熬煮的麻辣燙湯頭
+                        香辣過癮超夠味，
+                        再來份必吃的麻辣鴨血
+                        麻辣豆腐，老油條，滿大碗正宗麻辣燙絕對讓您難以忘懷！
+                    </span>
+
+                </div>
+
+                <div class="menu__content">
+                    <img src="assets/img/5.png" alt="" class="menu__img">
+                    <h3 class="menu__name">炒滷味</h3>
+                    <span class="menu__detail">
+                        滿大碗熬煮的私房滷汁，
+                        淋上獨門特調炒醬，以先滷再炒的方式，
+                        加上九層塔蒜爆的香氣，
+                        炒滷味如此美味很難不來上一大碗【大碗美味 大飽滿足】
+                    </span>
+
+                </div>
+                <div class="menu__content">
+                    <img src="assets/img/6.png" alt="" class="menu__img">
+                    <h3 class="menu__name">炸滷味</h3>
+                    <span class="menu__detail">
+                        滿大碗獨門炸滷味，
+                        以先滷再炸的方式，起鍋後撒上特調胡椒，
+                        香氣四溢，滿大碗獨門炸滷味如此噴香，
+                        絕對征服您挑剔的味蕾【大碗美味 大飽滿足】
+                    </span>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <!--========== MENU ==========-->
+        <section class="menu section bd-container" id="menu">
+            <span class="section-subtitle" style="font-size: 30px">菜單</span>
+            <h2 class="section-title">各式滷味小吃、任君挑選</h2>
+            <div class="menu_img"><img src="assets/img/m.png" alt=""></div>
+
+
+
+
+        </section>
+
+        <!--===== APP =======-->
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial" style="font-size: 30px">名人推薦</span>
+                    <h2 class="section-title app__initial">元智怪熊——阿純</h2>
+                    <p class="app__description">若能夠洞悉滷味各種層面的含義，勢必能讓思維再提高一個層級。沃克森夏安納曾提出，五十歲時，你開始厭倦世界; 六十歲時，卻是世界厭倦了你。這句話看似簡單，卻埋藏了深遠的意義。</p>
+                    <!--
+                    <div class="app__stores">
+                        <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                        <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                    </div>
+-->
+                </div>
+
+                <img src="assets/img/S__11927803.jpg" alt="" class="app__img">
+            </div>
+
+
+        </section>
+
+
+        <section class="app section bd-container">
+            <div class="app__container bd-grid">
+                <div class="app__data">
+                    <span class="section-subtitle app__initial" style="font-size: 30px">熟客推薦</span>
+                    <h2 class="section-title app__initial">油到滑倒——Kuro</h2>
+                    <p class="app__description">我只是看到滷味我就進來了。</p>
+                    <!--
+                    <div class="app__stores">
+                        <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                        <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                    </div>
+-->
+                </div>
+
+                <img src="assets/img/S__46637065.jpg" alt="" class="app__img2">
+            </div>
+
+
+        </section>
+
+
+        <!--========== CONTACT US ==========-->
+        <section class="contact section bd-container" id="contact">
+            <div class="contact__container bd-grid">
+                <div class="contact__data">
+                    <span class="section-subtitle contact__initial" style="font-size: 30px">聯絡我們</span>
+                    <h2 class="section-title contact__initial">Contact us</h2>
+                    <p class="contact__description">
+                        地址:中國湖北省武漢市江岸區中山大道677號
+                        <br>
+                        電話:0987-741-487
+                    </p>
+                </div>
+
+                <div class="contact__button">
+                    <a href="https://www.facebook.com/TWCDC" class="button">現在就聯絡我們</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer section bd-container">
+        <div class="footer__container bd-grid">
+            <div class="footer__content">
+                <a href="#" class="footer__logo" style="font-size: 30px">滿大碗</a>
+                <span class="footer__description">full-food</span>
+                <div>
+                    <a href="https://www.facebook.com/fullfood88/" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="https://www.instagram.com/_19981005_/" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="https://twitter.com/usadapekora" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">服務</h3>
+                <ul>
+                    <li><a href="https://www.ubereats.com/tw" class="footer__link">外送</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="footer__link">客服諮詢</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">資訊</h3>
+                <ul>
+                    <li><a href="https://www.full-food.com.tw/news.php" class="footer__link">活動</a></li>
+                    <li><a href="https://www.facebook.com/uijkmuijk" class="footer__link">網站設計師</a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100024524679302" class="footer__link">美術設計</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Adress</h3>
+                <ul>
+                    <li>
+                        滿大碗滷味連鎖總部</li>
+                    <li>加盟專線：0930-028981 0930-984369</li>
+                    <li>示範門市：台中市沙鹿區北勢東路536-2號</li>
+                    <li>E-Mail：chiuhsiang.foods@yahoo.com.tw</li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; 2021 拜託不要當我工作室</p>
+    </footer>
+
+    <!--========== SCROLL REVEAL ==========-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
